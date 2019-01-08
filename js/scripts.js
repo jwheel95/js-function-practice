@@ -1,8 +1,16 @@
 function isEven(num) {
-  if(num % 2 === 0) {
-    return true;
+  return num % 2 ===0;
+}
+
+function factorial(num) {
+  let result = 1;
+  for(i = 1; i <= num; i++) {
+    result *= i;
   }
-  else {
-    return false;
-  }
+  return result;
+}
+
+function kebabToSnake(str) {
+  const snake = str.replace(/-/g, "_");
+  return snake;
 }
