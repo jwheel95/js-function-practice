@@ -14,3 +14,13 @@ function kebabToSnake(str) {
   const snake = str.replace(/-/g, "_");
   return snake;
 }
+
+// Higher Order Functions
+// (passing a function into another function)
+
+function sing() {
+  console.log("twinkle twinkle");
+  console.log("how I wonder...");
+}
+
+setInterval(sing, 5000);
