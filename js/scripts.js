@@ -1,3 +1,5 @@
+// Basic function review
+
 function isEven(num) {
   return num % 2 ===0;
 }
@@ -24,3 +26,6 @@ function sing() {
 }
 
 setInterval(sing, 5000);
+
+
+// Practice with Arrays
