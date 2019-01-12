@@ -31,5 +31,15 @@
 function printReverse(arr) {
   for(i = arr.length -1; i >= 0; i--) {
     console.log(arr[i]);
-  };
+  }
+}
+
+function isUniform(arr) {
+  let first = arr[0];
+  for(i = 0; i < arr.length; i++) {
+    if(arr[i] !== first) {
+      return false;
+    }
+  }
+  return true;
 }
