@@ -61,3 +61,11 @@ function max(arr) {
   })
   return maxNum;
 }
+
+// BUILD MY OWN FOREACH
+
+function myForEach(arr,func) {
+  for(i = 0; i < arr.length; i++) {
+    func(arr[i]);
+  }
+}
