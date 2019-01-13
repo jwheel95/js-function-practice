@@ -53,7 +53,7 @@ function sumArray(arr) {
 }
 
 function max(arr) {
-  let maxNum = 0;
+  let maxNum = arr[0];
   arr.forEach(function(i) {
     if (i > maxNum) {
       maxNum = i;
