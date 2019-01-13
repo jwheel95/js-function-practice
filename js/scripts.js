@@ -43,3 +43,21 @@ function isUniform(arr) {
   }
   return true;
 }
+
+function sumArray(arr) {
+  let answer = 0;
+  arr.forEach(function(i) {
+    answer += i;
+  })
+  return answer;
+}
+
+function max(arr) {
+  let maxNum = 0;
+  arr.forEach(function(i) {
+    if (i > maxNum) {
+      maxNum = i;
+    }
+  })
+  return maxNum;
+}
